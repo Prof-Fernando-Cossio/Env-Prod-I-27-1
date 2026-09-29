@@ -62,3 +62,9 @@
 *.usd lfs
 *.usdc lfs
 *.usdz lfs
+
+# Store the Tokyo environment and its map actors in ordinary Git, not LFS.
+EnvProdI/Content/TokyoStylizedEnvironment/** -text -filter -diff -merge -lockable
+EnvProdI/Content/__ExternalActors__/TokyoStylizedEnvironment/** -text -filter -diff -merge -lockable
+EnvProdI/Content/__ExternalObjects__/TokyoStylizedEnvironment/** -text -filter -diff -merge -lockable
+EnvProdI/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset -text -filter -diff -merge -lockable
